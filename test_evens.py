@@ -12,7 +12,3 @@ class TestEvens(unittest.TestCase):
         self.assertEqual(even_number_of_events([2, 4]), True)
         self.assertEqual(even_number_of_events([2]), False)
         self.assertEqual(even_number_of_events([1, 3, 5]), False)
-
-
-if __name__ == '__main__':
-    unittest.main()
